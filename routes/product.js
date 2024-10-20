@@ -7,3 +7,5 @@ router.get('/', async (req, res) => {
   const data = await Products.find()
   res.send({ message: 'Products fetched successfully!', data })
 })
+
+module.exports =  router
