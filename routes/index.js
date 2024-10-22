@@ -1,9 +1,9 @@
 // import express from "express";
 const express = require("express");
 // import Product from "../models/Products";
-const Product = require("../practic01/models/Products");
+const product = require("./product");
 const router = express.Router();
 
-router.use("/products", Product);
+router.use("/products", product);
 
 module.exports =  router;

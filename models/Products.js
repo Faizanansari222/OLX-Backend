@@ -7,8 +7,9 @@ const { Schema, model } = mongoose;
 
 // Define the Product Schema
 const productSchema = new Schema({
-  name: { type: String, required: true },
-  age: { type: Number, required: true },
+  title: { type: String, required: true },
+  price: { type: Number, required: true },
+  date: { type: Number, required: true},
   description: { type: String },
 }, { timestamps: true });  // Automatically adds createdAt and updatedAt fields
 

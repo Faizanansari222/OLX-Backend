@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // import mongoose from "mongoose";
-const URI ="mongodb+srv://faizanpardesi07:ZDc86v5Pwx5atmn4@olx-cluster.vgb5p.mongodb.net/products";
+const URI ="mongodb+srv://faizanpardesi07:ZDc86v5Pwx5atmn4@olx-cluster.vgb5p.mongodb.net/Products";
 const connectDB = async () => {
   // pi3GffEhrcQNxJgi || ZDc86v5Pwx5atmn4
   try {
