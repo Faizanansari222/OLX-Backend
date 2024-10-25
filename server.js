@@ -14,7 +14,7 @@ const corseOptions = {
 
 app.use(cors(corseOptions));
 app.use(express.json());
-app.use("/", router);
+app.use("/olx/api", router);
 
 
 db().then(() => {
